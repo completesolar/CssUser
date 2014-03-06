@@ -1,5 +1,5 @@
 {
-    "name":"completesolar/cssuser",
+    "name":"completesolar/user",
 	"description":"User object of Complete Solar Solution",
 	"keywords": ["user"],
 	"homepage": "http://completesolar.com",
@@ -16,7 +16,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"CompleteSolar\\CssUser\\": "src/"
+			"CompleteSolar\\User\\": "src/"
 		}
 	}
 }
