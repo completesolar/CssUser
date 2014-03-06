@@ -1,7 +1,7 @@
 <?php
-namespace CompleteSolar\HelioAuth;
+namespace CompleteSolar\User;
 
-class CssAuthUser {
+class CssUser {
     private $id;
     private $email;
     private $firstName;
