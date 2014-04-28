@@ -6,12 +6,14 @@ class CssUser {
     private $email;
     private $firstName;
     private $lastName;
+    private $image;
 
-    public function __construct($id, $email, $firstName, $lastName){
+    public function __construct($id, $email, $firstName, $lastName, $image){
         $this->id = $id;
         $this->email = $email;
         $this->firstName = $firstName;
         $this->lastName = $lastName;
+        $this->image = $image;
     }
 
     public function getID(){
@@ -28,6 +30,10 @@ class CssUser {
 
     public function getLastName(){
         return $this->lastName;
+    }
+    
+    public function getImage(){
+        return $this->image;
     }
 }
 ?>
