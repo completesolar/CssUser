@@ -1,6 +1,6 @@
 {
     "name":"completesolar/user",
-	"description":"User object of Complete Solar Solution",
+	"description":"User object of Complete Solar",
 	"keywords": ["user"],
 	"homepage": "http://completesolar.com",
 	"type":"library",
